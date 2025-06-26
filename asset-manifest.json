@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shiftyrin.github.io/sheep-medium/static/css/main.7875747d.css",
+    "main.js": "/shiftyrin.github.io/sheep-medium/static/js/main.93f814c9.js",
+    "static/js/453.ed14673e.chunk.js": "/shiftyrin.github.io/sheep-medium/static/js/453.ed14673e.chunk.js",
+    "index.html": "/shiftyrin.github.io/sheep-medium/index.html",
+    "main.7875747d.css.map": "/shiftyrin.github.io/sheep-medium/static/css/main.7875747d.css.map",
+    "main.93f814c9.js.map": "/shiftyrin.github.io/sheep-medium/static/js/main.93f814c9.js.map",
+    "453.ed14673e.chunk.js.map": "/shiftyrin.github.io/sheep-medium/static/js/453.ed14673e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7875747d.css",
+    "static/js/main.93f814c9.js"
+  ]
+}
