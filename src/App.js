@@ -3,7 +3,7 @@ import UsernameLogin from './pages/UsernameLogin';
 import Home from './pages/Home';
 import Editor from './pages/Editor';
 import Post from './pages/Post';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 export default function App() {
   const [user, setUser] = useState(null); // username string
@@ -11,7 +11,7 @@ export default function App() {
   const handleLogout = () => setUser(null);
 
   return (
-    <BrowserRouter>
+    <Router>
       {!user ? (
         <UsernameLogin onLogin={setUser} />
       ) : (
@@ -22,7 +22,8 @@ export default function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       )}
-    </BrowserRouter>
+    </Router>
   );
 }
+
 
