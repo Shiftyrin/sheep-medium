@@ -12,16 +12,20 @@ export default function App() {
 
   return (
     <Router>
-      {!user ? (
-        <UsernameLogin onLogin={setUser} />
-      ) : (
-        <Routes>
-          <Route path="/" element={<Home user={user} onLogout={handleLogout} />} />
-          <Route path="/editor" element={<Editor user={user} />} />
-          <Route path="/post/:id" element={<Post />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-      )}
+      <Routes>
+        {/* If not logged in, any route shows login */}
+        {!user && <Route path="*" element={<UsernameLogin onLogin={setUser} />} />}
+
+        {/* Logged-in routes */}
+        {user && (
+          <>
+            <Route path="/" element={<Home user={user} onLogout={handleLogout} />} />
+            <Route path="/editor" element={<Editor user={user} />} />
+            <Route path="/post/:id" element={<Post />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </>
+        )}
+      </Routes>
     </Router>
   );
 }
