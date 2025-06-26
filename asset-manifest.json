@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shiftyrin.github.io/sheep-s-medium/static/css/main.7875747d.css",
-    "main.js": "/shiftyrin.github.io/sheep-s-medium/static/js/main.7df0b08c.js",
-    "static/js/453.ed14673e.chunk.js": "/shiftyrin.github.io/sheep-s-medium/static/js/453.ed14673e.chunk.js",
-    "index.html": "/shiftyrin.github.io/sheep-s-medium/index.html",
-    "main.7875747d.css.map": "/shiftyrin.github.io/sheep-s-medium/static/css/main.7875747d.css.map",
-    "main.7df0b08c.js.map": "/shiftyrin.github.io/sheep-s-medium/static/js/main.7df0b08c.js.map",
-    "453.ed14673e.chunk.js.map": "/shiftyrin.github.io/sheep-s-medium/static/js/453.ed14673e.chunk.js.map"
+    "main.css": "/shiftyrin.github.io/ourmedium/static/css/main.7875747d.css",
+    "main.js": "/shiftyrin.github.io/ourmedium/static/js/main.b8cf7bc9.js",
+    "static/js/453.ed14673e.chunk.js": "/shiftyrin.github.io/ourmedium/static/js/453.ed14673e.chunk.js",
+    "index.html": "/shiftyrin.github.io/ourmedium/index.html",
+    "main.7875747d.css.map": "/shiftyrin.github.io/ourmedium/static/css/main.7875747d.css.map",
+    "main.b8cf7bc9.js.map": "/shiftyrin.github.io/ourmedium/static/js/main.b8cf7bc9.js.map",
+    "453.ed14673e.chunk.js.map": "/shiftyrin.github.io/ourmedium/static/js/453.ed14673e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7875747d.css",
-    "static/js/main.7df0b08c.js"
+    "static/js/main.b8cf7bc9.js"
   ]
 }
